@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from django.db import models, transaction
 from django.db.models import PROTECT
 from django.db.models.signals import post_save, pre_delete
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from river.config import app_config
 from river.models import Workflow

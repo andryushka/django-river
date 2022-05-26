@@ -1,6 +1,6 @@
 from django.db import models
 from django.db.models import PROTECT
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from river.config import app_config
 from river.models import BaseModel, State
